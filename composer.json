@@ -12,6 +12,9 @@
             "name": "Christian Chernnov"
         }
     ],
+    "bin": [
+  "bin/brain-games"
+    ],
     "minimum-stability": "beta",
     "require": {}
 }
