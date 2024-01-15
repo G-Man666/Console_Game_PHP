@@ -1,4 +1,4 @@
 <?php
 
-Welcome to the Brain Games!
+echo 'Welcome to the Brain Games!';
 
