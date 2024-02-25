@@ -2,4 +2,15 @@
 
 namespace BrainGames\Cli;
 
-print_r("Welcome to the Brain Games!\nMay I have your name? John\nHello, John\n");
+use function cli\line;
+use function cli\prompt;
+
+function run()
+{
+    line("Welcome to the Brain Game!");
+    line("");
+    $name = prompt('May I have your name?');
+    line("Hello, %s!", $name);
+}
+
+
