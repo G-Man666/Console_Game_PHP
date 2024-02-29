@@ -1,15 +1,15 @@
 #!/usr/bin/env php
 <?php
 
-$loadPath1 = __DIR__ . '/../../../autoload.php';
-$loadPath2 = __DIR__ . '/../vendor/autoload.php';
+$autoloadPath1 = __DIR__ . '/../../../autoload.php';
+$autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
 
-if (file_exists($loadPath1)) {
-    require_once $loadPath1;
+if (file_exists($autoloadPath1)) {
+    require_once $autoloadPath1;
 } else {
-    require_once $loadPath2;
+    require_once $autoloadPath2;
 }
 
-use function BrainGames\Cli\run;
+use function Brain\Games\Cli\greeting;
 
-run();
+$name = greeting();
