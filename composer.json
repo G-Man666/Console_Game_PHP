@@ -3,9 +3,15 @@
     "description": "1.0",
     "type": "project",
     "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+        "files": [
+          "src/Games/Cli.php",
+          "src/Games/Even.php",
+          "src/Games/Gcd.php",
+          "src/Games/Calc.php",
+          "src/Games/Progression.php",
+          "src/Games/Prime.php",
+          "src/Games/Engine.php"
+        ]
     },
     "authors": [
         {
@@ -15,7 +21,10 @@
     "bin": [
   "bin/brain-games",
   "bin/brain-even",
-  "bin/brain-calc"
+  "bin/brain-calc",
+  "bin/brain-gcd",
+  "bin/brain-progression",
+  "bin/brain-prime"
     ],
     "minimum-stability": "beta",
     "require": {
