@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'hexlet/code',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '95887210f552e20f8b6151c2d0882390aa610263',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'hexlet/code' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '95887210f552e20f8b6151c2d0882390aa610263',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.9.0',
+            'version' => '3.9.0.0',
+            'reference' => 'd63cee4890a8afaf86a22e51ad4d97c91dd4579b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'wp-cli/php-cli-tools' => array(
+            'pretty_version' => 'v0.11.22',
+            'version' => '0.11.22.0',
+            'reference' => 'a6bb94664ca36d0962f9c2ff25591c315a550c51',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wp-cli/php-cli-tools',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
