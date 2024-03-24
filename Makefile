@@ -14,4 +14,5 @@ brain-progression:
 	./bin/brain-progression
 brain-calc:
 	./bin/brain-calc
-
+brain-prime:
+	./bin/brain-prime
