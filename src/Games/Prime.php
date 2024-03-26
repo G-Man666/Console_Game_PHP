@@ -14,9 +14,9 @@ function isPrime(int $num): bool
 
     for ($i = 2; $i <= sqrt($num); $i++) {
         if (!(boolval($num % $i))) {
-        return false;
+            return false;
+        }
     }
-}
 
         return true;
 }
@@ -24,12 +24,12 @@ function isPrime(int $num): bool
 function run(): void
 {
     $logic = function (): array {
-    $num = rand(1, 99);
-    $question = $num;
-    $correctAnswer = (isPrime($num)) ? 'yes' : 'no';
+        $num = rand(1, 99);
+        $question = $num;
+        $correctAnswer = (isPrime($num)) ? 'yes' : 'no';
 
         return [$question, $correctAnswer];
-};
+    };
 
-play(GAME_DEF, $logic);
+    play(GAME_DEF, $logic);
 }
