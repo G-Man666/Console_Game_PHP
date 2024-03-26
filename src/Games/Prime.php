@@ -8,27 +8,27 @@ const GAME_DEF = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 function isPrime(int $num): bool
 {
-if ($num == 1) {
-return false;
+    if ($num == 1) {
+        return false;
 }
 
 for ($i = 2; $i <= sqrt($num); $i++) {
-if (!(boolval($num % $i))) {
-return false;
+    if (!(boolval($num % $i))) {
+        return false;
 }
 }
 
-return true;
+        return true;
 }
 
 function run(): void
 {
-$logic = function (): array {
-$num = rand(1, 99);
-$question = $num;
-$correctAnswer = (isPrime($num)) ? 'yes' : 'no';
+    $logic = function (): array {
+    $num = rand(1, 99);
+    $question = $num;
+    $correctAnswer = (isPrime($num)) ? 'yes' : 'no';
 
-return [$question, $correctAnswer];
+        return [$question, $correctAnswer];
 };
 
 play(GAME_DEF, $logic);
