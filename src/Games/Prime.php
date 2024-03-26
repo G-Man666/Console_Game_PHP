@@ -10,12 +10,12 @@ function isPrime(int $num): bool
 {
     if ($num == 1) {
         return false;
-}
+    }
 
-for ($i = 2; $i <= sqrt($num); $i++) {
-    if (!(boolval($num % $i))) {
+    for ($i = 2; $i <= sqrt($num); $i++) {
+        if (!(boolval($num % $i))) {
         return false;
-}
+    }
 }
 
         return true;
