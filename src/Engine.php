@@ -5,6 +5,8 @@ namespace Brain\Engine;
 use function cli\line;
 use function cli\prompt;
 
+const GAME_ROUND = 3;
+
 function play(string $gameDef, callable $gameLogicFunc): void
 {
     line('Welcome to the Brain Game!');
@@ -12,7 +14,7 @@ function play(string $gameDef, callable $gameLogicFunc): void
     line("Hello, %s!", $name);
     line($gameDef);
 
-    for ($correctAnswers = 0; $correctAnswers < 3; $correctAnswers++) {
+    for ($correctAnswers = 0; $correctAnswers < GAME_ROUND; $correctAnswers++) {
         [$question, $correctAnswer] = $gameLogicFunc();
 
         line("Question: %s", $question);
