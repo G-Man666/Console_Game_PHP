@@ -24,7 +24,22 @@
 Введите в терминал команду make brain-calc, дальше Вас спрашивают ваше имя, Вы отвечаете и начинается игра по подсчету чисел.
 Правила: если правильно считаем число, то вы выиграете, один неправильный ответ, то проигрыш.
 
- [![asciicast]( https://asciinema.org/a/a4lZ1b4UKB1zZ7zijd5rhAxAn.svg)]( https://asciinema.org/a/a4lZ1b4UKB1zZ7zijd5rhAxAn)
+ [![asciicast](https://asciinema.org/a/a4lZ1b4UKB1zZ7zijd5rhAxAn.svg)](https://asciinema.org/a/a4lZ1b4UKB1zZ7zijd5rhAxAn)
 
+## Brain-gcd
+Введите в терминал команду make brain-gcd, дальше Вас спрашивают ваше имя, Вы отвечаете и начинается игра по вычислению общего делителя.
+Правила: если правильно подбираем число, то вы выиграете, один неправильный ответ, то проигрыш.
+    
+[![asciicast](https://asciinema.org/a/gC5YWpYmgLhCF4nbKK4XSVyrt.svg)](https://asciinema.org/a/gC5YWpYmgLhCF4nbKK4XSVyrt)   
 
+## Brain-progression
+Введите в терминал команду make brain-progression, дальше Вас спрашивают ваше имя, Вы отвечаете и начинается игра по вычислению числа которое должно продолжать последовательность чисел.
+Правила: если правильно подбираем число, то вы выиграете, один неправильный ответ, то проигрыш.
 
+[![asciicast](https://asciinema.org/a/LcraqqYPkcAUqF7q0QtZKVXB2.svg)](https://asciinema.org/a/LcraqqYPkcAUqF7q0QtZKVXB2)  
+
+## Brain-prime
+Введите в терминал команду make brain-progression, дальше Вас спрашивают ваше имя, Вы отвечаете и начинается игра по определению числа простое, если да пишем "yes" если нет "no".
+Правила: если правильно подбираем число, то вы выиграете, один неправильный ответ, то проигрыш.
+
+[![asciicast](https://asciinema.org/a/ET5aM63Q6Sh2qnYKfO5KsUbZi.svg)](https://asciinema.org/a/ET5aM63Q6Sh2qnYKfO5KsUbZi)  
