@@ -5,9 +5,12 @@
 Здесь находятся, мини-игры и ниже будет вся информация, по установке проекта и как пользоваться играми.
 
 ## Setup
-В терминал вводим команду "git clone https://github.com/никнейм_профиля/название_проекта"
+Как установить репозиторий к проекту?
+В терминал вводим команду "git clone https://github.com/никнейм_профиля/название_проекта".
 
 ## Установка зависимостей 
+Введите в терминале команду make install.
 [![asciicast](https://asciinema.org/a/CeuOTCB034XxpALsJvvE3w7yh.svg)](https://asciinema.org/a/CeuOTCB034XxpALsJvvE3w7yh)
 
-
+## Brain-even
+[![asciicast](https://asciinema.org/a/Okd4jlxI7eAqeKKdKiVNIfe6M.svg)](https://asciinema.org/a/Okd4jlxI7eAqeKKdKiVNIfe6M)
