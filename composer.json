@@ -4,13 +4,13 @@
     "type": "project",
     "autoload": {
         "files": [
-          "src/Games/Cli.php",
+          "src/Cli.php",
           "src/Games/Even.php",
           "src/Games/Gcd.php",
           "src/Games/Calc.php",
           "src/Games/Progression.php",
           "src/Games/Prime.php",
-          "src/Games/Engine.php"
+          "src/Engine.php"
         ]
     },
     "authors": [
