@@ -7,3 +7,7 @@
 ## Setup
 В терминал вводим команду "git clone https://github.com/никнейм_профиля/название_проекта"
 
+## Установка зависимостей 
+[![asciicast](https://asciinema.org/a/CeuOTCB034XxpALsJvvE3w7yh.svg)](https://asciinema.org/a/CeuOTCB034XxpALsJvvE3w7yh)
+
+
