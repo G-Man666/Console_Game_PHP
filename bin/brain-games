@@ -12,4 +12,4 @@ if (file_exists($autoloadPath1)) {
 
 use function Brain\Games\Cli\greeting;
 
-$name = greeting();
+greeting();
