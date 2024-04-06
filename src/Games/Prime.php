@@ -8,7 +8,7 @@ const GAME_DEF = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 function isPrime(int $num): bool
 {
-    if ($num == 1) {
+    if ($num === 1) {
         return false;
     }
 

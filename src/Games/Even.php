@@ -10,7 +10,7 @@ function run(): void
 {
     $logic = function (): array {
         $question = rand(1, 99);
-        $correctAnswer = ($question % 2 == 0) ? 'yes' : 'no';
+        $correctAnswer = ($question % 2 === 0) ? 'yes' : 'no';
 
         return [$question, $correctAnswer];
     };
