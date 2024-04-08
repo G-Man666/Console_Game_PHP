@@ -5,6 +5,8 @@ namespace Brain\Games\Prime;
 use function Brain\Engine\play;
 
 const GAME_DEF = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const MIN_VALUE = 1;
+const MAX_VALUE = 99;
 
 function isPrime(int $num): bool
 {
@@ -24,7 +26,7 @@ function isPrime(int $num): bool
 function run(): void
 {
     $logic = function (): array {
-        $num = rand(1, 99);
+        $num = rand(MIN_VALUE, MAX_VALUE);
         $question = $num;
         $correctAnswer = (isPrime($num)) ? 'yes' : 'no';
 
