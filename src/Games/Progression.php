@@ -1,6 +1,7 @@
 <?php
 
 namespace Brain\Games\Progression;
+
 use function Brain\Engine\play;
 
 const GAME_DEF = 'What number is missing in the progression?';
