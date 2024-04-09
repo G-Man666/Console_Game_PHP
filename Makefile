@@ -18,3 +18,6 @@ brain-calc:
 	./bin/brain-calc
 brain-prime:
 	./bin/brain-prime
+php-stan:
+	vendor/bin/phpstan analyse src --level=9
+
