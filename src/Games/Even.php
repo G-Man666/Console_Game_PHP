@@ -8,7 +8,7 @@ const GAME_DEF = 'Answer "yes" if the number is even, otherwise answer "no".';
 const MIN_VALUE = 1;
 const MAX_VALUE = 99;
 
-function even(int $value): bool
+function isEven(int $value): bool
 {
     return $value % 2 === 0;
 }
