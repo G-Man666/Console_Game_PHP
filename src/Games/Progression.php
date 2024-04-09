@@ -15,6 +15,20 @@ const LENGTH_MAX_VALUE = 10;
 const STEP_MIN_VALUE = 2;
 const STEP_MAX_VALUE = 10;
 
+function generateProgression(int $length, int $step, int $missingPosition, int $start): array
+{
+    $result = [];
+
+    for ($i = 0; $i < $length; $i++) {
+        $result[] = $start + $i * $step;
+    }
+
+    $answer = $result[$missingPosition];
+    $result[$missingPosition] = '..';
+
+    return [$result, $answer];
+}
+
 function run(): void
 {
     $logic = function (): array {
@@ -22,15 +36,9 @@ function run(): void
         $step = rand(STEP_MIN_VALUE, STEP_MAX_VALUE);
         $missingPosition = rand(0, $length - 1);
         $start = rand(MIN_VALUE, MAX_VALUE);
-        $result = [];
 
-        for ($i = 0; $i < $length; $i++) {
-            $result[] = $start + $i * $step;
-        }
-
-        $answer = $result[$missingPosition];
-        $result[$missingPosition] = '..';
-        $question = implode(' ', $result);
+        list($progression, $answer) = generateProgression($length, $step, $missingPosition, $start);
+        $question = implode(' ', $progression);
 
         return [$question, $answer];
     };
