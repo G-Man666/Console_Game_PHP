@@ -8,7 +8,7 @@ const GAME_DEF = 'What is the result of the expression?';
 const MIN_VALUE = 1;
 const MAX_VALUE = 99;
 
-function calculate(int $num1,int $num2, string $operator): int
+function calculate(int $num1, int $num2, string $operator): int
 {
     switch ($operator) {
         case '+':
