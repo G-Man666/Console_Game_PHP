@@ -17,7 +17,7 @@ function run(): void
 {
     $logic = function (): array {
         $question = rand(MIN_VALUE, MAX_VALUE);
-        $correctAnswer = even($question) ? 'yes' : 'no';
+        $correctAnswer = isEven($question) ? 'yes' : 'no';
 
         return [$question, $correctAnswer];
     };
