@@ -14,7 +14,7 @@ function play(string $gameDef, callable $gameLogicFunc): void
     line("Hello, %s!", $name);
     line($gameDef);
 
-    for ($correctAnswers = 0; $correctAnswers < GAME_ROUND; $correctAnswers++) {
+    for ($correctAnswers = 1; $correctAnswers <= GAME_ROUND; $correctAnswers++) {
         [$question, $correctAnswer] = $gameLogicFunc();
 
         line("Question: %s", $question);
