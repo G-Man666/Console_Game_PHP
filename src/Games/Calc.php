@@ -18,7 +18,7 @@ function calculate(int $num1, int $num2, string $operator): int
         case '*':
             return $num1 * $num2;
         default:
-            return 0;
+            throw new \InvalidArgumentException("Unsupported operator: {$operator}");
     }
 }
 
