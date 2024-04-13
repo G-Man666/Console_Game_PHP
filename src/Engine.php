@@ -26,7 +26,7 @@ function play(string $gameDef, callable $gameLogicFunc): void
         } else {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $correctAnswer);
             line("Let's try again, %s!", $name);
-            exit(0);
+            return;
         }
     }
 
